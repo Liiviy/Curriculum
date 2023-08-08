@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(0, 9, 15);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#banner{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 52pt;
+    color: aliceblue;
+}
+
+
+.profile{
+    /* Dimensões da foto */
+    border-radius: 50%;
+    max-height: 100pt;
+    max-width: 100pt;
+    height: 100pt;
+    width: 100pt;
+    border: 3pt solid rgb(10, 0, 36);
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    
+}
+
+.background-profile{
+    width: 340pt;
+    height: 1085pt;
+    background-color: rgb(0, 70, 168);
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.h1{
+    background-color: rgb(1, 54, 128);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.projetos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 340pt;
+    height: 340pt;
+
+}
+
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+.experiences{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#banner-experiences{
+    color: rgb(37, 104, 199);
+}
+
+.img{
+    height: 200pt;
+    width: 330pt;
+    padding: 3mm;
+
+}
+
+.icons{
+    height: 25pt;
+    width: 25pt;
+    padding: 2mm;
+}
+
+.container-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
